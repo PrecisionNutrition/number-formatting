@@ -3,3 +3,5 @@
 `{{pretty-percentage decimalValue=0.751 precision=1}}` yields "75.1%"
 
 `{{pretty-percentage decimalValue=0.751 precision=0}}` yields "75%"
+
+`{{format-currency value=123}}` yields "$1.23 (USD)"
