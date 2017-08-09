@@ -16,6 +16,7 @@
   },
   "scripts": {
     "build": "ember build",
+    "easy-publish": "npm publish --access public",
     "start": "ember server",
     "test": "ember try:each"
   },
