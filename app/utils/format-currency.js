@@ -1,1 +1,1 @@
-export { default } from 'number-formatting/utils/format-currency';
+export { default } from '@precision-nutrition/number-formatting/utils/format-currency';
