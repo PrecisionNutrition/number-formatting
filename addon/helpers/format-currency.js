@@ -1,5 +1,5 @@
-import Ember from 'ember';
-import { default as formatCurrencySuper } from 'number-formatting/utils/format-currency';
+import { helper as buildHelper } from '@ember/component/helper';
+import { default as formatCurrencySuper } from '@precision-nutrition/number-formatting/utils/format-currency';
 
 export function formatCurrency(_, { value }) {
   let formatted = formatCurrencySuper(value);
@@ -7,4 +7,4 @@ export function formatCurrency(_, { value }) {
   return formatted;
 }
 
-export default Ember.Helper.helper(formatCurrency);
+export default buildHelper(formatCurrency);
