@@ -1,6 +1,6 @@
 {
   "name": "@precision-nutrition/number-formatting",
-  "version": "2.0.0",
+  "version": "2.0.1",
   "description": "A small collection of utilities that help with formatting numbers nicely",
   "keywords": [
     "ember-addon"
