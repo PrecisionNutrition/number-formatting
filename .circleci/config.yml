@@ -154,20 +154,20 @@ workflows:
 
       - run_default_tests:
           requires:
-            - lint_project
+            - install_dependencies
 
       - run_release_tests:
           requires:
-            - run_default_tests
+            - install_dependencies
 
       - run_antique_tests:
           requires:
-            - run_default_tests
+            - install_dependencies
 
       - run_beta_tests:
           requires:
-            - run_default_tests
+            - install_dependencies
 
       - run_canary_tests:
           requires:
-            - run_default_tests
+            - install_dependencies
