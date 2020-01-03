@@ -1,7 +1,7 @@
 import roundNumber from '@precision-nutrition/unit-utils/utils/round-number';
 
 export default function prettyPercentage(decimalValue, precision=0) {
-  if (decimalValue === null || isNaN(decimalValue)) {
+  if (decimalValue === null || Number.isNaN(decimalValue)) {
     return;
   }
 
