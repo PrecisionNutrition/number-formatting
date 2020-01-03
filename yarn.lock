@@ -1595,12 +1595,13 @@
     "@nodelib/fs.scandir" "2.1.3"
     fastq "^1.6.0"
 
-"@precision-nutrition/unit-utils@~3.0.0":
-  version "3.0.0"
-  resolved "https://registry.yarnpkg.com/@precision-nutrition/unit-utils/-/unit-utils-3.0.0.tgz#64c04d2c2afcd876357392e4f6ce38a2fc2f52e4"
-  integrity sha512-Lq5w3kz9ci2P/eD/aa+sgrF8OYXErsGfRW87lJTlNHur9l2lW66t79oKvk9JV7z+3kcr68fvvegSRDXZSFCnAQ==
+"@precision-nutrition/unit-utils@^4.0.0":
+  version "4.0.0"
+  resolved "https://registry.yarnpkg.com/@precision-nutrition/unit-utils/-/unit-utils-4.0.0.tgz#cf7c6b6be2cd1251431b1d68e7aab68e5a01340e"
+  integrity sha512-iCNARk5JRjcnw2WRyi6VrLl98ejBCxhes4sirkzh6j5NcsEE4Xq+h1xOfWv3dGRYWMZp/iycdN/FOzAGmAB77w==
   dependencies:
-    ember-cli-babel "^6.16.0"
+    ember-cli-babel "^7.13.0"
+    ember-cli-htmlbars "^4.2.0"
 
 "@simple-dom/interface@1.4.0":
   version "1.4.0"
