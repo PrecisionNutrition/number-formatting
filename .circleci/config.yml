@@ -7,13 +7,13 @@
 defaults: &defaults
   docker:
     # specify the version you desire here
-    - image: circleci/node:8-browsers
+    - image: circleci/node:12-browsers
       environment:
         JOBS: 2
 
   working_directory: ~/repo
 
-version: 2
+version: 2.1
 jobs:
   checkout_code:
     <<: *defaults
