@@ -1,4 +1,5 @@
 # number-formatting [![Build Status](https://travis-ci.org/PrecisionNutrition/number-formatting.svg?branch=master)](https://travis-ci.org/PrecisionNutrition/number-formatting)
+
 ==============================================================================
 
 `{{pretty-percentage decimalValue=0.751 precision=1}}` yields "75.1%"
@@ -7,35 +8,26 @@
 
 `{{format-currency value=123}}` yields "$1.23 (USD)"
 
-Compatibility
-------------------------------------------------------------------------------
+## Compatibility
 
-* Ember.js v3.16 or above
-* Ember CLI v2.13 or above
-* Node.js v10 or above
+- Ember.js v3.16 or above
+- Ember CLI v2.13 or above
+- Node.js v10 or above
 
-
-Installation
-------------------------------------------------------------------------------
+## Installation
 
 ```
 ember install @precision-nutrition/number-formatting
 ```
 
-
-Usage
-------------------------------------------------------------------------------
+## Usage
 
 [Longer description of how to use the addon in apps.]
 
-
-Contributing
-------------------------------------------------------------------------------
+## Contributing
 
 See the [Contributing](CONTRIBUTING.md) guide for details.
 
-
-License
-------------------------------------------------------------------------------
+## License
 
 This project is licensed under the [MIT License](LICENSE.md).
