@@ -5,8 +5,8 @@ export default function prettyPercentage(decimalValue, precision = 0) {
     return;
   }
 
-  let convertedValue = Number(decimalValue) * 100;
-  let rounder = roundNumber(convertedValue, precision);
+  const convertedValue = Number(decimalValue) * 100;
+  const rounder = roundNumber(convertedValue, precision);
 
   return `${rounder}%`;
 }
