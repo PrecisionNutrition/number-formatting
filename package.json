@@ -38,6 +38,7 @@
     "@ember/test-helpers": "^2.1.4",
     "@glimmer/component": "^1.0.3",
     "@glimmer/tracking": "^1.0.3",
+    "@precision-nutrition/prettier-config": "^1.1.0",
     "babel-eslint": "^10.1.0",
     "broccoli-asset-rev": "^3.0.0",
     "ember-auto-import": "^1.10.1",
@@ -81,5 +82,6 @@
   "bugs": {
     "url": "https://github.com/PrecisionNutrition/number-formatting/issues"
   },
-  "homepage": "https://github.com/PrecisionNutrition/number-formatting#readme"
+  "homepage": "https://github.com/PrecisionNutrition/number-formatting#readme",
+  "prettier": "@precision-nutrition/prettier-config"
 }
